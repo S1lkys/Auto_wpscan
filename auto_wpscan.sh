@@ -5,6 +5,7 @@ wl_pass="${wl_pass}"
 count_pass=$(wc -l $wl_pass | cut -d " " -f1)
 
 for fn in `cat $wl_pass`; do
-wpscan --url $fn -e  u,vp 
+wpscan --url $fn -e  u,vp  >> result
 done
 
+print "Fertig, bitte in result nachsehen"
