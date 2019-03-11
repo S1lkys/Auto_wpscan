@@ -6,9 +6,9 @@ it uses WPScan and updates the Database at the beginning
 
 ## Usage of auto_wpscan
 ```
-1. bashauto_wpscan.sh >> result
+1. bashauto_wpscan.sh
 2. select your list: (recommended) wp-links
-3. look into result to see the result 
+3. look into result to see the result after its finished 
 
 ```
 
@@ -20,7 +20,7 @@ wpscan
 ## Example 
 
 ```
-bash auto_wpscan.sh >> tester
+bash auto_wpscan.sh
  Liste mit Wordpresswebistes: wp-links
 
 -----------------------
